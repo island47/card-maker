@@ -1,0 +1,13 @@
+@value --colorGreen,--colorWhite,--colorBlack from "/src/common/colors.css";
+
+.footer {
+	width: 100%;
+	text-align: center;
+	background-color: --colorGreen;
+}
+
+.title {
+	margin: 0;
+	padding: 1em;
+	color: --colorWhite;
+}

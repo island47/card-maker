@@ -1,8 +1,13 @@
 import React from 'react';
-import Login from './components/login';
+import Login from './components/login/login';
+import styles from './app.module.css';
 
-const app = () => {
-	return <Login />;
+const App = ({ authService }) => {
+	return (
+		<div class={styles.app}>
+			<Login authService={authService} />
+		</div>
+	);
 };
 
-export default app;
+export default App;

@@ -1,0 +1,34 @@
+@value --colorGreen,--colorWhite,--colorLightPink from "/src/common/colors.css";
+
+.login {
+	width: 30em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: --colorWhite;
+}
+
+.list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0.5em;
+}
+
+.item {
+	margin-bottom: 0.5em;
+}
+
+.button {
+	width: 100%;
+	height: 2.5em;
+	font-size: 1.2em;
+	border-radius: 1.2em;
+	background-color: transparent;
+	border: 0.2em solid --colorGreen;
+}
+
+.button:hover {
+	background-color: --colorLightPink;
+}
