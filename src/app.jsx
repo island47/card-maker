@@ -7,7 +7,7 @@ import Maker from './components/maker/maker';
 const App = ({ authService }) => {
 	return (
 		<div className={styles.app}>
-			<BrowserRouter>
+			<BrowserRouter basename="/card-maker">
 				<Switch>
 					<Route exact path="/">
 						<Login authService={authService} />

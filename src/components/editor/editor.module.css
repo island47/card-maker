@@ -1,8 +1,9 @@
-@value --colorGreen from '/src/common/colors.css';
+@value --colorGreen, --colorLightGrey from '/src/common/colors.css';
 
 .editor {
 	flex-basis: 50%;
-	background-color: wheat;
+	border-right: 1px solid --colorLightGrey;
+	padding: 0.5em 2em;
 }
 
 .title {
